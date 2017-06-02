@@ -1,0 +1,555 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" href="assets/css/simple.css">  
+    
+    <style>
+      @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Material Icons'), local('MaterialIcons-Regular'), url(assets/fonts/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+    }
+
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+      pre.prettyprint {
+        background-color: #f6f8fa;
+        width: 100%;
+      }
+      div#grid-sample .col{
+        background-color: #eee;
+        text-align: center;
+        border: 1px solid #888;
+      }
+
+      body {
+        padding-top:60px;
+      }
+      pre {
+        display: block;
+      font-family: monospace;
+      white-space: pre;
+      margin: 1em 0;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="navbar nav-fixed nav-top">
+      <div class="navbar-item nav-btn">
+        <i class="material-icons">menu</i>
+      </div>
+      <div class="navbar-item site-title">
+        <h3>Simple CSS</h3>
+      </div>
+      <div class="navbar-item navbar-menu"> 
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--</div>-->
+    <div class="container-wide">
+      <div class="row">
+        <div class="col md-12">
+          <h2>Navbar</h2>
+        </div>
+        
+        <div class="col md-4">
+          <h4>Navbar Default</h4>  
+          
+          <pre class="prettyprint">
+    <div class="navbar">
+      <div class="navbar-item nav-btn">
+        <i class="material-icons">menu</i>
+      </div>
+      <div class="navbar-item site-title">
+        <h3>Site Title</h3>
+      </div>
+      <div class="navbar-item navbar-menu"> 
+        <ul>
+          <li><a href="#">Home</a></li>
+          
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+            </pre>
+        </div>
+        
+        <div class="col md-4">
+          <h4>Navbar Fixed Top</h4>  
+          
+          <pre class="prettyprint">
+              
+    <div class="navbar nav-fixed nav-top">
+      <div class="navbar-item nav-btn">
+        <i class="material-icons">menu</i>
+      </div>
+      <div class="navbar-item site-title">
+        <h3>Site Title</h3>
+      </div>
+    <div class="navbar-item navbar-menu"> 
+        <ul>
+          <li><a href="#">Home</a></li>
+          
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+            </pre>
+        </div>
+        
+        <div class="col md-4">
+          <h4>Navbar Fixed Bottom</h4>  
+          
+          <pre class="prettyprint">
+     
+    <div class="navbar nav-fixed nav-top">
+      <div class="navbar-item nav-btn">
+        <i class="material-icons">menu</i>
+      </div>
+      <div class="navbar-item site-title">
+        <h3>Site Title</h3>
+    </div>
+      <div class="navbar-item navbar-menu"> 
+        <ul>
+          <li><a href="#">Home</a></li>
+          
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+            </pre>
+          <!--</pre>-->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="divider"></div>
+    </div>
+
+    <div class="container-wide">
+      <div class="row">
+        <div class="col">
+          <h2>Containers</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-wide" style="background-color:#eee; text-align:center;">
+      .container-wide
+    </div>
+    <br>
+    <div class="container" style="background-color:#eee; text-align:center;">
+      .container
+    </div>
+
+    <div class="container">
+      <div class="divider"></div>
+    </div>
+
+    <div class="container-wide">
+      <div class="row">
+        <div class="col">
+          <h2>Grid</h2>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-wide" id="grid-sample">
+      
+      <div class="row">  
+        <div class="col sm-8 md-3">
+          .col.sm-8.md-3
+        </div>
+        <div class="col sm-4 md-9">
+          .col.sm-4.md-9
+        </div>
+        <div class="col md-2">
+          .col.md-2
+        </div>
+        <div class="col md-2">
+          .col.md-2
+        </div>
+        <div class="col md-2">
+          .col.md-2
+        </div>
+        <div class="col md-2">
+          .col.md-2
+        </div>
+        <div class="col md-2">
+          .col.md-2
+        </div>
+        <div class="col md-2">
+          .col.md-2
+        </div>
+      </div>
+      <div class="row">
+        <div class="col md-6">
+          .col.md-6
+        </div>
+        <div class="col md-6">
+          .col.md-6
+        </div>
+      </div>
+      <div class="row">
+        <div class="col md-4">
+          .col.md-4
+        </div>
+        <div class="col md-4">
+          .col.md-4
+        </div>
+        <div class="col md-4">
+          .col.md-4
+        </div>
+      </div>
+      <div class="row">
+        <div class="col md-3">
+          .col.md-3
+        </div>
+        <div class="col md-3">
+          .col.md-3
+        </div>
+        <div class="col md-3">
+          .col.md-3
+        </div>
+        <div class="col md-3">
+          .col.md-3
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="conteiner-wide">
+      <div class="row">
+        <div class="col md-12">
+        
+        <pre class="prettyprint">
+    <div class="container-wide">
+      <div class="row">
+        <div class="col md-6">
+          // content 
+        </div>
+        <div class="col md-6">
+          // content 
+        </div>
+      </div>
+    </div>
+        </pre>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="divider"></div>
+    </div>
+
+    <div class="container-wide">
+      <div class="row">
+        <div class="col md-6">
+          <h2>Buttons</h2>
+          <button class="btn btn-0">.btn.btn-0</button>
+          <button class="btn btn-1">Button 1</button>
+          <button class="btn btn-2">Button 2</button>
+          <button class="btn btn-3">Button 3</button>
+          
+          <div class="row">
+            <pre class="prettyprint">
+    <button class="btn btn-0">.btn.btn-0</button>
+    <button class="btn btn-1">Button 1</button>
+    <button class="btn btn-2">Button 2</button>
+    <button class="btn btn-3">Button 3</button>
+            </pre>
+          </div>
+        
+        </div>
+
+        <div class="col md-6">
+          <h2>Size</h2>
+          <button class="btn btn-0 btn-sm"><i class="material-icons">print</i>Button small</button>
+          <button class="btn btn-3">Button 3</button>
+          <button class="btn btn-1 btn-md">Button medium</button>
+          <button class="btn btn-2 btn-lg"><i class="material-icons">print</i>Button large</button>
+          <div class="row">
+            <pre class="prettyprint">
+    <button class="btn btn-0 btn-sm"><i class="material-icons">print</i>Button small</button>
+    <button class="btn btn-3">Button 3</button>
+    <button class="btn btn-1 btn-md">Button medium</button>
+    <button class="btn btn-2 btn-lg"><i class="material-icons">print</i>Button large</button>
+            </pre>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!--FORMS-->
+      <div class="row">
+        <div class="col md-6">
+          <h2>Form Inline</h2>
+          <form class="form-inline">
+            <div class="input-field">
+
+              <div class="field">
+                <input type="text">
+              </div>
+            </div>
+            <div class="input-field">
+              <div class="field">
+                <input type="password">
+              </div>
+            </div>
+            <div class="input-field">
+              <button class="btn btn-1">Sign In</button>
+            </div>
+          </form>
+          
+
+          <div class="row">
+            <pre class="prettyprint">
+  <form class="form-inline">
+    <div class="input-field">
+
+      <div class="field">
+        <input type="text">
+      </div>
+    </div>
+    <div class="input-field">
+      <div class="field">
+        <input type="password">
+      </div>
+    </div>
+    <div class="input-field">
+      <button class="btn btn-1">Sign In</button>
+    </div>
+  </form>
+            </pre>
+          </div>
+          
+          <h2>Form Block</h2>
+          <div class="form-block">
+            <div class="input-field">
+              <label for=""><i class="material-icons" style="font-size:;">perm_identity</i> Username</label>
+              <div class="field">
+                <i class="field-icon material-icons">perm_identity</i>
+                <input type="text" placeholder="username">
+              </div>
+              
+            </div>
+
+            <div class="input-field">
+              <label for="">Password</label>
+              <div class="field">
+                <i class="field-icon material-icons">lock</i>
+                <input type="password" placeholder="password">
+              </div>
+              
+            </div>
+
+            <div class="input-field">
+
+              <div class="field">
+                <select name="" id="">
+                  <option value="">option 1</option>
+                  <option value="">option 2</option>
+                  <option value="">option 3</option>
+                </select>
+              </div>
+              
+            </div>
+            <div class="input-field">
+              <div class="field">
+                <textarea name="" id=""></textarea>
+              </div>
+            </div>
+            <div class="input-field">
+              <button class="btn btn-md btn-2 full-width">Sign in</button>
+            </div>
+
+            
+          </div>
+
+          <div class="row">
+            <pre class="prettyprint">
+  <div class="form-block">
+    <div class="input-field">
+      <label for=""><i class="material-icons" style="font-size:;">perm_identity</i> Username</label>
+      <div class="field">
+        <i class="field-icon material-icons">perm_identity</i>
+        <input type="text" placeholder="username">
+      </div>
+      
+    </div>
+
+    <div class="input-field">
+      <label for="">Password</label>
+      <div class="field">
+        <i class="field-icon material-icons">lock</i>
+        <input type="password" placeholder="password">
+      </div>
+      
+    </div>
+
+    <div class="input-field">
+
+      <div class="field">
+        <select name="" id="">
+          <option value="">option 1</option>
+          <option value="">option 2</option>
+          <option value="">option 3</option>
+        </select>
+      </div>
+      
+    </div>
+    <div class="input-field">
+      <div class="field">
+        <textarea name="" id=""></textarea>
+      </div>
+    </div>
+    <div class="input-field">
+      <button class="btn btn-md btn-2 full-width">Sign in</button>
+    </div>
+
+
+    </div>
+            </pre>
+          </div>
+
+
+          <h2>Input Size</h2>
+            <div class="input-field">
+              <label for="">Small</label>
+              <div class="field field-sm" >
+                <i class="field-icon material-icons">print</i>
+                <input type="text"  value="font-size = 12">
+              </div>
+            </div>
+
+            <div class="input-field">
+              <label for="">Default</label>
+              <div class="field">
+                <input type="text"  value="font-size = 14">
+              </div>
+            </div>
+
+            <div class="input-field">
+              <label for="">Meduim</label>
+              <div class="field field-md">
+                <input type="text" value="font-size = 16">
+              </div>
+            </div>
+
+            <div class="input-field">
+              <label for="">Large</label>
+              <div class="field field-lg">
+                <i class=" field-icon material-icons">print</i>
+                <input type="text" value="font-size = 20">
+              </div>
+            </div>
+
+            <div class="row">
+              <pre class="prettyprint">
+    <div class="input-field">
+      <label for="">Small</label>
+      <div class="field field-sm" >
+        <i class="field-icon material-icons">print</i>
+        <input type="text"  value="font-size = 12">
+      </div>
+    </div>
+
+    <div class="input-field">
+      <label for="">Default</label>
+      <div class="field">
+        <input type="text"  value="font-size = 14">
+      </div>
+    </div>
+
+    <div class="input-field">
+      <label for="">Meduim</label>
+      <div class="field field-md">
+        <input type="text" value="font-size = 16">
+      </div>
+    </div>
+
+    <div class="input-field">
+      <label for="">Large</label>
+      <div class="field field-lg">
+        <i class=" field-icon material-icons">print</i>
+        <input type="text" value="font-size = 20">
+      </div>
+    </div>
+              </pre>
+            </div>
+        </div>
+        <!-- END 1st COL-->
+        <div class="col md-6">
+          <h2>Alerts</h2>
+          <div class="alert alert-1">
+            .alert.alert-1  
+          </div>
+          <div class="alert alert-2">
+            .alert.alert-2  
+          </div>
+          <div class="alert alert-3">
+            .alert.alert-3  
+          </div>
+          <div class="alert alert-4">
+            .alert.alert-4  
+          </div>
+
+          <div class="row">
+            <pre class="prettyprint">
+    <div class="alert alert-1">.alert.alert-1</div>
+    <div class="alert alert-2">.alert.alert-2</div>
+    <div class="alert alert-3">.alert.alert-3</div>
+    <div class="alert alert-4">.alert.alert-4</div>
+            </pre>
+          </div>
+
+          <h2>Modals</h2>
+          <a href="#!" class="btn">Open Modal</a>
+          
+        </div>
+
+  
+        <div class="divider"></div>
+
+
+
+      </div>
+    </div>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="assets/js/simple.js"></script>
+
+    <script>
+      var pres = document.querySelectorAll('pre');
+      pres.forEach(function (element) {
+        element.style.border = 'none';
+        var inner = element.innerHTML;
+        element.innerHTML = inner.replace(/</g, '&lt;');
+      });
+    </script>
+  </body>
+</html>
